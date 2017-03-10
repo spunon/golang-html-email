@@ -14,7 +14,7 @@ func main() {
         <p>This is some paragraph text</p>
         <p><i>This is a sincere salutation</i></p>
         <p><strong>P.S. This is a variable: ` + bodyVar + `</strong>
-		</html>`
+        </html>`
 
 	send("recipient@email.com", "Some Subject", body)
 }
